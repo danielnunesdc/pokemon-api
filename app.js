@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: 'http://poke-list-app.herokuapp.com/',
+    origin: 'http://poke-list-app.herokuapp.com',
   })
 );
 
