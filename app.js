@@ -12,7 +12,10 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+
+    console.log('Conectado no Mongo com sucesso');
   } catch (error) {
+    console.log('Erro ao conectar no MongoDB');
     process.exit();
   }
 })();
@@ -22,16 +25,16 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(pokemonRouter);
-
 app.use(
   cors({
-    origin: 'http://poke-list-app.herokuapp.com/pokemon',
+    origin: 'http://poke-list-app.herokuapp.com/',
   })
 );
 
+app.use(pokemonRouter);
+
 app.get('/', (req, res) => {
-  res.send('API em execução');
+  res.send('API em execucao');
 });
 
 const PORT = process.env.PORT || 8081;
