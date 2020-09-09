@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 
 import { pokemonRouter } from './routes/pokemonRouter.js';
 
@@ -22,6 +23,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(pokemonRouter);
+
+app.use(
+  cors({
+    origin: 'http://poke-list-app.herokuapp.com/pokemon',
+  })
+);
 
 app.get('/', (req, res) => {
   res.send('API em execucao');
