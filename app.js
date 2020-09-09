@@ -31,7 +31,7 @@ app.use(
 );
 
 app.get('/', (req, res) => {
-  res.send('API em execucao');
+  res.send('API em execução');
 });
 
 const PORT = process.env.PORT || 8081;
