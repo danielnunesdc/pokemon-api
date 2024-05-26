@@ -7,14 +7,14 @@
   <p align="center">
   <a href="https://linkedin.com/in/danielnunesdc">
     <img alt="Made by Daniel Nunes" src="https://img.shields.io/badge/made%20by-Daniel Nunes-%2300AFA2">
-    <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/nunesdaniel/pokemon-app?color=00AFA2">
-    <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/nunesdaniel/pokemon-app?color=00AFA2">
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/nunesdaniel/pokemon-app?color=00AFA2">
+    <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/danielnunesdc/pokemon-app?color=00AFA2">
+    <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/danielnunesdc/pokemon-app?color=00AFA2">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/danielnunesdc/pokemon-app?color=00AFA2">
   </a>
 </p><br /><br />
 
 ### Full project on heroku [Poke list](http://poke-list-app.herokuapp.com/)
-### Front-end repository [Pokemon-app](https://github.com/nunesdaniel/pokemon-app)
+### Front-end repository [Pokemon-app](https://github.com/danielnunesdc/pokemon-app)
 
 ### How to contribute
 
